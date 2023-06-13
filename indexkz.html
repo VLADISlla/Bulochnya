@@ -1,0 +1,770 @@
+<HTML>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/code.js"></script>
+    </head>
+    <body id="element">
+        <div id="mainPage">
+   
+        <div class="header">  
+            <div class="header-elem">
+                <div class="menu click" id="mainMenuOpen" onclick="openMainModal()">
+                    <img class="header-icon" src="media/menu.png">
+                </div> 
+                <div id="mainMenu">
+                    <div class="modal">
+                        <a href="#main" class="mainMenuElem">
+                            үй
+                        </a>
+                        <a href="#abtUs" class="mainMenuElem">
+                            Біз туралы
+                        </a>
+                        <a href="#footer" class="mainMenuElem">
+                            Контактілер
+                        </a>
+                    </div>
+                </div>    
+                <div id="catalog" onclick="openCatalog()"  class="catalog click" >
+                    КАТАЛОГ▾
+                </div>
+                <div id="catalogMenu">
+                    <div class="modal">
+                        <div class="modalElem"  onclick="positionOneOpen()">
+                            Зефир
+                        </div>
+                        <div class="modalElem"  onclick="positionTwoOpen()">
+                            Кәмпиттер 
+                        </div>
+                        <div class="modalElem"  onclick="positionThreeOpen()">
+                            Печенье
+                        </div>
+                        <div class="modalElem"  onclick="positionFourOpen()">
+                            Пирожндар
+                        </div>
+                        <div class="modalElem"  onclick="positionFiveOpen()">
+                            Торттар
+                        </div>
+                    </div>
+                </div>    
+            </div>     
+           <div class="header-elem">
+                <div class="number">
+                    8 (777) 555-11-33
+                </div>
+                <div class="languages">
+                    <div class="ru click" onclick="onRuClick()">
+                        РУС
+                    </div>
+                    <div class="kz click" id="kz" onclick="onKzClick()">
+                        КАЗ
+                    </div>
+                </div>
+                <div class="authoriz click" onclick="openLogin()">
+                    <img class="header-icon" src="media/authorization.png">
+                </div>     
+           </div>                                 
+        </div>
+        <div class="content" onclick="closeMainModal()">
+            <div id="main">
+                <div class="mainLogo">
+                    <img class="logo" src="media/logo.png">
+                </div>
+                <div class="mainText">
+                    Интернет - кондитерлік және үй тағамдарының дүкені!
+                </div>
+                <div class="textBox">
+                    <div class="text">
+                        Тапсырыстарды жеткізу күн сайын 10:00-ден 20:00-ге дейін <br>
+                        Сіз тәулік бойы сұрау жібере аласыз
+                    </div>
+                  
+                </div>
+               
+            </div>
+            <div id="abtUs">
+                <div class="mainText">
+                    Біз келесі схема бойынша жұмыс істейміз
+                </div>
+                <div class="abtUsContent">
+                    <div class="abtUsCont">
+                        <div class="abtUsElem">
+                            <div>
+                                <img  class="abtUsImg" src="media/1.png">
+                            </div>
+                            <div class="abtUsText">
+                                Сіз тауардың қажетті салмағын немесе санын көрсете отырып, 
+                                тапсырыс бересіз.
+                            </div>
+                        </div>
+                        <div class="abtUsElem">
+                            <div >
+                                <img class="abtUsImg" src="media/2.png">
+                            </div>
+                            <div class="abtUsText">
+                                Біз тауарларды салмағы бойынша тапсырысыңызға мүмкіндігінше жақын орап аламыз,
+                                 Біз сіздің тапсырысыңызға нақты салмақ пен соңғы құнын енгіземіз.
+                            </div>
+                        </div>
+                        <div class="abtUsElem">
+                            <div>
+                                <img class="abtUsImg" src="media/3.png">
+                            </div>
+                            <div class="abtUsText">
+                                Оператор сізбен байланысып, мәліметтерді нақтылайды
+                            </div>
+                        </div>
+                    </div>
+                    <div class="abtUsCont">
+                        <div class="abtUsElem">
+                            <div class="abtUsImg">
+                                <img class="abtUsImg" src="media/4.png">
+                            </div>
+                            <div class="abtUsText">
+                                Келіссеңіз, сізге таңдалған өнімдермен курьер жіберіледі.
+                                 Орташа алғанда жеткізу уақыты оператор тапсырысты растағаннан кейін 1 сағатты алады.
+                            </div>
+                        </div>
+                        <div class="abtUsElem">
+                            <div class="abtUsImg">
+                                <img class="abtUsImg" src="media/5.png">
+                            </div>
+                            <div class="abtUsText">
+                                Сіз курьерге қолма-қол ақшамен, курьердің мобильді терминалы арқылы картамен немесе онлайн төлем жасай аласыз.
+                                 Бұл жағдайда курьер кеткенге дейін сізге нақты сомамен төлеуге сілтеме жіберіледі.
+                            </div>
+                        </div>
+                        <div class="abtUsElem">
+                            <div class="abtUsImg">
+                                <img class="abtUsImg" src="media/6.png">
+                            </div>
+                            <div class="abtUsText">
+                                Жеткізу құны:<br>
+                                500 теңге - қала,<br>
+                                700 теңге – кварталдар<br>
+                                1000 теңге – шалғай аудандар<br>
+                                2000 теңге – тұрғын алабында<br>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+        <div id="footer" class="footer">
+            <div class="footerText">                
+                Орталық кеңсенің мекенжайы: Қазақстан, Павлодар қ., көш. Ломова, 10<br>
+                Телефон: 8 (747) 858 30 15<br>
+                Анықтама телефоны: 8 (747) 858 30 15<br>
+                WhatsApp: +77071151515<br>
+                E-mail: bulochnaya.pvl@yandex.ru
+            </div>
+        </div>
+    </div>
+  
+    <div id="positionOne">
+        <div class="header-back ">
+            <div class="menu click back" onclick="openMainPage()">
+                <img class="header-icon" src="media/back.png">
+            </div> 
+            <div class="click">
+                <img class="headerlogo" src="media/headerlogo.png">
+            </div>
+        </div>
+        <div class="positionName">
+            Зефир
+        </div>
+        <div class="posContent">
+            <div class="posCon"> 
+                <div class="position">
+                    <div class="posName">
+                        Зефир классикалық
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/zef1.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                2600тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        Жұмсақ және жұмсақ тәтті дәм.
+                        Классикалық зефир - танымал десерт,
+                        оның нәзік дәмі мен жеңіл құрылымы бар,
+                        оны жеуге жағымды етеді.
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        Зефир қарақат
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/zef2.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                4800тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        Қарақат зефир - қарақат пюресі негізгі ингредиент болып табылатын зефирдің нұсқасы.
+                        Бұл тәтті және жұмсақ нәзіктікте қарақаттың сергітетін дәмі бар, ол зефирдің тәттілігі мен нәзіктігімен толықтырылады.
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        Зефир кофесі
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/zef3.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                3250тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        Кофе зефир - кофе әуесқойлары үшін тартымды дәм,
+                        ол зефирдің тәттілігін жаңа қайнатылған кофенің хош иісі мен дәмімен үйлестіреді.
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        Шоколадтағы зефир
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/zef4.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                3100тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        Шоколадтағы зефир екі ингредиентті біріктіреді, шырынды және жұмсақ зефир өзегін ұсынады,
+                        тегіс және хош иісті шоколад қабатымен жабылған.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footerText">                
+                Орталық кеңсенің мекенжайы: Қазақстан, Павлодар қ., көш. Ломова, 10<br>
+                Телефон: 8 (747) 858 30 15<br>
+                Анықтама телефоны: 8 (747) 858 30 15<br>
+                WhatsApp: +77071151515<br>
+                E-mail: bulochnaya.pvl@yandex.ru
+            </div>
+        </div>
+    </div>
+    <div id="positionTwo">
+        <div class="header-back">
+            <div class="menu click back" onclick="openMainPage()">
+                <img class="header-icon" src="media/back.png">
+            </div> 
+            <div class="click">
+                <img class="headerlogo" src="media/headerlogo.png">
+            </div>
+        </div>
+        <div class="positionName">
+            Кәмпиттер
+        </div>
+        <div class="posContent">
+            <div class="posCon"> 
+                <div class="position">
+                    <div class="posName">
+                        Трюфельдер 
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/konf1.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                3500тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        Грек жаңғағы қосылған шоколадты-кілегейлі қоспасы
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        Дипломат
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/konf2.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                9900тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        Қуырылған карамель
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        Ақ шоколадтағы кептірілген өрік
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/konf3.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                8500тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        кептірілген өрік, грек жаңғағы, шоколад глазурі
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        Шоколадтағы қара өрік қосылған фундук
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/konf4.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                8500тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        фундук, қара өрік, шоколад глазурі
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footerText">                
+                Орталық кеңсенің мекенжайы: Қазақстан, Павлодар қ., көш. Ломова, 10<br>
+                Телефон: 8 (747) 858 30 15<br>
+                Анықтама телефоны: 8 (747) 858 30 15<br>
+                WhatsApp: +77071151515<br>
+                E-mail: bulochnaya.pvl@yandex.ru
+            </div>
+        </div>
+    </div>
+    <div id="positionThree">
+        <div class="header-back">
+            <div class="menu click back" onclick="openMainPage()">
+                <img class="header-icon" src="media/back.png">
+            </div> 
+            <div class="click">
+                <img class="headerlogo" src="media/headerlogo.png">
+            </div>
+        </div>
+        <div class="positionName">
+            Печенье
+        </div>
+        <div class="posContent">
+            <div class="posCon"> 
+                <div class="position">
+                    <div class="posName">
+                        Күн мен түн
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/pec2.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                2600тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        кофе, ақ және қара шоколадты глазурь қосылған қытырлақ қамыр
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        Курабье
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/pec1.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                1600тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        қытырлақ қамыр, алма тосап
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        Альберта
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/pec3.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                2700тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        құм негізі, салмасы, жержаңғақ жапырақтары
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        жаңғақтар
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/pec4.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                3100тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        қытырлақ қамыр, қайнатылған қоюландырылған кілегей, қайнатылған қоюландырылған сүт
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footerText">                
+                Орталық кеңсенің мекенжайы: Қазақстан, Павлодар қ., көш. Ломова, 10<br>
+                Телефон: 8 (747) 858 30 15<br>
+                Анықтама телефоны: 8 (747) 858 30 15<br>
+                WhatsApp: +77071151515<br>
+                E-mail: bulochnaya.pvl@yandex.ru
+            </div>
+        </div>
+    </div>
+    <div id="positionFour">
+        <div class="header-back">
+            <div class="menu click back" onclick="openMainPage()">
+                <img class="header-icon" src="media/back.png">
+            </div> 
+            <div class="click">
+                <img class="headerlogo" src="media/headerlogo.png">
+            </div>
+        </div>
+        <div class="positionName">
+            Пирожндар
+        </div>
+        <div class="posContent">
+            <div class="posCon"> 
+                <div class="position">
+                    <div class="posName">
+                        Банофи
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/pir2.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1шт<br>
+                                950тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        Нәзік кофе кремі, банан және қайнатылған қоюландырылған сүт қосылған торт
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        Панна-котта
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/pir1.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1шт<br>
+                                950тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        Тәтті және қышқыл пассиферлік конфитті нәзік кремді торт
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        жеміс себеті
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/pir3.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1шт<br>
+                                230тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        құм негізі, май кремі, жеміс (апельсин)
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                    Рафаэлло
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/pir4.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                3400тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        қайнатпа п/ф, май кремі, қайнатылған қоюландырылған сүт, кокос жаңғағы үлпектері
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footerText">                
+                Орталық кеңсенің мекенжайы: Қазақстан, Павлодар қ., көш. Ломова, 10<br>
+                Телефон: 8 (747) 858 30 15<br>
+                Анықтама телефоны: 8 (747) 858 30 15<br>
+                WhatsApp: +77071151515<br>
+                E-mail: bulochnaya.pvl@yandex.ru
+            </div>
+        </div>
+    </div>
+    <div id="positionFive">
+        <div class="header-back">
+            <div class="menu click back" onclick="openMainPage()">
+                <img class="header-icon" src="media/back.png">
+            </div> 
+            <div class="click">
+                <img class="headerlogo" src="media/headerlogo.png">
+            </div>
+        </div>
+        <div class="positionName">
+            Торттар
+        </div>
+        <div class="posContent">
+            <div class="posCon"> 
+                <div class="position">
+                    <div class="posName">
+                        Сникерс
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/tort1.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                4000тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        Нәзік қаймақ пен қайнатылған қоюландырылған сүт қосылған шоколадты губка торты,
+                        жержаңғақ қосылған қабатты крекер печеньелері. Шоколадпен қапталған, вафли үгінділерімен безендірілген,
+                        кокос, Snickers барының бөліктері.
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        карамель қыз
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/tort2.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                6000тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        Қоюландырылған сүт негізіндегі нәзік торттар.
+                        Кофе, сүт коктейль дәмі бар май кремі.
+                        Жұмсақ ирис қабаты. карамель ганач,
+                        қуырылған зефир және карамель үгіндісі.
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        қызыл барқыт
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/tort3.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                5500тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        Кілегейлі ірімшік кремі қабаты бар бельгиялық какао қосылған жұмсақ печенье.
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        Румба
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/tort4.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                3700тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        Кілегей қосылған қара ауа печеньесі,
+                        ванильді паста және банан. Ақ гельмен безендірілген
+                        шоколад чипсы, ашытылған күріш және коктейль шие.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footerText">                
+                Орталық кеңсенің мекенжайы: Қазақстан, Павлодар қ., көш. Ломова, 10<br>
+                Телефон: 8 (747) 858 30 15<br>
+                Анықтама телефоны: 8 (747) 858 30 15<br>
+                WhatsApp: +77071151515<br>
+                E-mail: bulochnaya.pvl@yandex.ru
+            </div>
+        </div>
+    </div>
+    <div id="login">
+        <div class="header-back">
+            <div class="menu click back" onclick="openMainPage()">
+                <img class="header-icon" src="media/back.png">
+            </div> 
+        </div>
+        <div class="loginContent">
+            <div >
+                <img class="login-icon" src="media/user-interface.png">
+            </div> 
+            <div class="loginInput">
+                <div class="loginText" >
+                    Логин
+                </div>
+                
+                <input id="loginText">
+            </div>
+            <div class="loginInput">
+                <div class="loginText" >
+                    Пароль
+                </div>
+                
+                <input type="password" id="parolText">
+                
+            </div>
+            <div id="underLoginText">
+                қате пайдаланушы аты және/немесе құпия сөз
+            </div>
+            <button class="button" onclick="login()">Войти</button>
+        </div>
+        <div class="footer">
+            <div class="footerText">                
+                Орталық кеңсенің мекенжайы: Қазақстан, Павлодар қ., көш. Ломова, 10<br>
+                Телефон: 8 (747) 858 30 15<br>
+                Анықтама телефоны: 8 (747) 858 30 15<br>
+                WhatsApp: +77071151515<br>
+                E-mail: bulochnaya.pvl@yandex.ru
+            </div>
+        </div>
+    </div>
+    <div id="adminPage">
+        <div class="adminPage">
+            <div class="header-admin">
+                <div class="menu click back" onclick="openMainPage()">
+                    Шығу
+                </div> 
+            </div>
+            <div class="adminContent">
+                <div>
+                    Құттықтаймыз, сізге рұқсат берілді!
+                </div>
+                <div>
+                    қош келдіңіз
+                </div>
+            </div>
+            <div class="footer">
+
+            </div>   
+        </div>            
+    </div>
+</body>
+</HTML>
