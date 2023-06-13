@@ -1,0 +1,703 @@
+<HTML>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="js/code.js"></script>
+    </head>
+    <body id="element">
+        <div id="mainPage">  
+            <div class="header">  
+                <div class="header-elem">
+                    <div class="menu click" id="mainMenuOpen" onclick="openMainModal()">
+                        <img class="header-icon" src="media/menu.png">
+                    </div> 
+                    <div id="mainMenu">
+                        <div class="modal">
+                            <a href="#main" class="mainMenuElem">
+                                Главная
+                            </a>
+                            <a href="#abtUs" class="mainMenuElem">
+                                О нас
+                            </a>
+                            <a href="#footer" class="mainMenuElem">
+                                Контакты
+                            </a>
+                        </div>
+                    </div>    
+                    <div id="catalog" onclick="openCatalog()"  class="catalog click" >
+                        КАТАЛОГ▾
+                    </div>
+                    <div id="catalogMenu">
+                        <div class="modal">
+                            <div class="modalElem"  onclick="positionOneOpen()">
+                                Зефир
+                            </div>
+                            <div class="modalElem"  onclick="positionTwoOpen()">
+                                Конфеты 
+                            </div>
+                            <div class="modalElem"  onclick="positionThreeOpen()">
+                                Печенье
+                            </div>
+                            <div class="modalElem"  onclick="positionFourOpen()">
+                                Пирожные
+                            </div>
+                            <div class="modalElem"  onclick="positionFiveOpen()">
+                                Торты
+                            </div>
+                        </div>
+                    </div>    
+                </div>     
+            <div class="header-elem">
+                <div class="number">
+                    8 (777) 555-11-33
+                </div>
+                    <div class="languages">
+                        <div class="ru click">
+                            РУС
+                        </div>
+                        <div class="kz click" id="kz" onclick="onKzClick()">
+                            КАЗ
+                        </div>
+                    </div>  
+                    <div class="authoriz click" >
+                        <img class="header-icon" src="media/authorization.png">
+                    </div>  
+            </div>                                 
+            </div>
+            <div class="content" onclick="closeMainModal()">
+                <div id="main">
+                    <div class="mainLogo">
+                        <img class="logo" src="media/logo.png">
+                    </div>
+                    <div class="mainText">
+                        Интернет - магазин кондитерских изделий и домашней еды!
+                    </div>
+                    <div class="textBox">
+                        <div class="text">
+                            Доставка заказов ежедневно с 10:00 до 20:00 <br>
+                            Отправить заявку Вы можете круглосуточно
+                        </div>                    
+                    </div>                
+                </div>
+                <div id="abtUs">
+                    <div class="mainText">
+                        Мы работает по следующей схеме
+                    </div>
+                    <div class="abtUsContent">
+                        <div class="abtUsCont">
+                            <div class="abtUsElem">
+                                <div>
+                                    <img  class="abtUsImg" src="media/1.png">
+                                </div>
+                                <div class="abtUsText">
+                                    Вы делаете заказ, указывая желаемый вес или количество товара.
+                                </div>
+                            </div>
+                            <div class="abtUsElem">
+                                <div >
+                                    <img class="abtUsImg" src="media/2.png">
+                                </div>
+                                <div class="abtUsText">
+                                    Мы фасуем товар, максимально приближенно по весу к Вашему заказу, 
+                                    выставляем в Вашем заказе точный вес и окончательную стоимость.
+                                </div>
+                            </div>
+                            <div class="abtUsElem">
+                                <div>
+                                    <img class="abtUsImg" src="media/3.png">
+                                </div>
+                                <div class="abtUsText">
+                                    Оператор связывается с вами и уточняет детали
+                                </div>
+                            </div>
+                        </div>
+                        <div class="abtUsCont">
+                            <div class="abtUsElem">
+                                <div class="abtUsImg">
+                                    <img class="abtUsImg" src="media/4.png">
+                                </div>
+                                <div class="abtUsText">
+                                    В случае согласия к Вам отправляется курьер с выбранной продукцией.
+                                    В среднем, время доставки занимает 1 час, после подтверждения заказа оператором. 
+                                </div>
+                            </div>
+                            <div class="abtUsElem">
+                                <div class="abtUsImg">
+                                    <img class="abtUsImg" src="media/5.png">
+                                </div>
+                                <div class="abtUsText">
+                                    Оплатить Вы можете Наличными курьеру, Картой через мобильный терминал курьера или онлайн. 
+                                    В этом случае, перед выездом курьера, Вам будет выслана ссылка на оплату с точной суммой.
+                                </div>
+                            </div>
+                            <div class="abtUsElem">
+                                <div class="abtUsImg">
+                                    <img class="abtUsImg" src="media/6.png">
+                                </div>
+                                <div class="abtUsText">
+                                    Стоимость доставки:<br>
+                                    500 тг - город,<br>
+                                    700 тг - микрорайоны<br>
+                                    1000 тг - отдаленные районы<br>
+                                    2000 тг - внеселитебная зона<br>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="footer" class="footer">
+                <div class="footerText">                
+                    Адрес центрального офиса: Казахстан, г.Павлодар ул. Ломова, 10<br>
+                    Телефон: 8 (747) 858 30 15<br>
+                    Телефон доверия: 8 (747) 858 30 15<br>
+                    WhatsApp: +77071151515<br>
+                    E-mail: bulochnaya.pvl@yandex.ru
+                </div>
+            </div>
+    </div>  
+    <div id="positionOne">
+        <div class="header-back ">
+            <div class="menu click back" onclick="openMainPage()">
+                <img class="header-icon" src="media/back.png">
+            </div> 
+            <div class="click">
+                <img class="headerlogo" src="media/headerlogo.png">
+            </div>
+        </div>
+        <div class="positionName">
+            Зефир
+        </div>
+        <div class="posContent">
+            <div class="posCon"> 
+                <div class="position">
+                    <div class="posName">
+                        Зефир классический
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/zef1.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                2600тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        Мягкое и пушистое сладкое лакомство. 
+                        Классический зефир является популярным десертом, 
+                        он обладает нежным вкусом и легкой текстурой, 
+                        делая его приятным для употребления в пищу.
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        Зефир смородиновый
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/zef2.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                4800тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        Смородиновый зефир - это вариант зефира, в котором основным ингредиентом является пюре из смородины. 
+                        Это сладкое и мягкое лакомство обладает освежающим вкусом смородины, который дополняется сладостью и нежностью зефира.
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        Зефир кофейный
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/zef3.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                3250тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        Кофейный зефир - это привлекательное лакомство для любителей кофе, 
+                        которое сочетает сладость зефира с ароматом и вкусом свежесваренного кофе.
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        Зефир в шоколаде
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/zef4.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                3100тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        Зефир в шоколаде сочетает два ингредиента, предлагая сочное и мягкое зефирное ядро, 
+                        покрытое слоем гладкого и ароматного шоколада.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footerText">                
+                Адрес центрального офиса: Казахстан, г.Павлодар ул. Ломова, 10<br>
+                Телефон: 8 (747) 858 30 15<br>
+                Телефон доверия: 8 (747) 858 30 15<br>
+                WhatsApp: +77071151515<br>
+                E-mail: bulochnaya.pvl@yandex.ru
+            </div>
+        </div>
+    </div>
+    <div id="positionTwo">
+        <div class="header-back">
+            <div class="menu click back" onclick="openMainPage()">
+                <img class="header-icon" src="media/back.png">
+            </div> 
+            <div class="click">
+                <img class="headerlogo" src="media/headerlogo.png">
+            </div>
+        </div>
+        <div class="positionName">
+            Конфеты
+        </div>
+        <div class="posContent">
+            <div class="posCon"> 
+                <div class="position">
+                    <div class="posName">
+                        Трюфели 
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/konf1.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                3500тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        Шоколадно - сливочная смесь с грецким орехом
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        Дипломат
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/konf2.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                9900тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        Карамель грильяжная
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        Курага в белом шоколаде 
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/konf3.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                8500тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        курага, орех грецкий, шоколадная глазурь
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        Фундук с черносливом в шоколаде
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/konf4.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                8500тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        орех фундук,чернослив, шоколадная глазурь
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footerText">                
+                Адрес центрального офиса: Казахстан, г.Павлодар ул. Ломова, 10<br>
+                Телефон: 8 (747) 858 30 15<br>
+                Телефон доверия: 8 (747) 858 30 15<br>
+                WhatsApp: +77071151515<br>
+                E-mail: bulochnaya.pvl@yandex.ru
+            </div>
+        </div>
+    </div>
+    <div id="positionThree">
+        <div class="header-back">
+            <div class="menu click back" onclick="openMainPage()">
+                <img class="header-icon" src="media/back.png">
+            </div> 
+            <div class="click">
+                <img class="headerlogo" src="media/headerlogo.png">
+            </div>
+        </div>
+        <div class="positionName">
+            Печенье
+        </div>
+        <div class="posContent">
+            <div class="posCon"> 
+                <div class="position">
+                    <div class="posName">
+                        День и ночь
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/pec2.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                2600тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        песочное тесто с кофе, шоколадная глазурь белая и темная
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        Курабье
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/pec1.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                1600тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        песочное тесто, повидло яблочное
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        Альберта
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/pec3.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                2700тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        песочная основа, начинка, арахисовые лепестки
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        Орешки
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/pec4.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                3100тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        песочное тесто, крем-молоко сгущенное вареное, молоко сгущенное цельное
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footerText">                
+                Адрес центрального офиса: Казахстан, г.Павлодар ул. Ломова, 10<br>
+                Телефон: 8 (747) 858 30 15<br>
+                Телефон доверия: 8 (747) 858 30 15<br>
+                WhatsApp: +77071151515<br>
+                E-mail: bulochnaya.pvl@yandex.ru
+            </div>
+        </div>
+    </div>
+    <div id="positionFour">
+        <div class="header-back">
+            <div class="menu click back" onclick="openMainPage()">
+                <img class="header-icon" src="media/back.png">
+            </div> 
+            <div class="click">
+                <img class="headerlogo" src="media/headerlogo.png">
+            </div>
+        </div>
+        <div class="positionName">
+            Пирожное
+        </div>
+        <div class="posContent">
+            <div class="posCon"> 
+                <div class="position">
+                    <div class="posName">
+                        Банофи
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/pir2.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1шт<br>
+                                950тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        Пирожное с нежным кофейным кремом, бананами и вареной сгущенкой
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        Панна-котта
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/pir1.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1шт<br>
+                                950тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        Нежное сливочное пирожное с кисло-сладким конфи из маракуйи
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        Фруктовая корзинка
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/pir3.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1шт<br>
+                                230тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        песочная основа, сливочный крем, фрукты(апельсин)
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                    Рафаэлло
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/pir4.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                3400тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        заварной п/ф, сливочный крем, вареное сгущенное молоко, кокосовая стружка
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footerText">                
+                Адрес центрального офиса: Казахстан, г.Павлодар ул. Ломова, 10<br>
+                Телефон: 8 (747) 858 30 15<br>
+                Телефон доверия: 8 (747) 858 30 15<br>
+                WhatsApp: +77071151515<br>
+                E-mail: bulochnaya.pvl@yandex.ru
+            </div>
+        </div>
+    </div>
+    <div id="positionFive">
+        <div class="header-back">
+            <div class="menu click back" onclick="openMainPage()">
+                <img class="header-icon" src="media/back.png">
+            </div> 
+            <div class="click">
+                <img class="headerlogo" src="media/headerlogo.png">
+            </div>
+        </div>
+        <div class="positionName">
+            Торты
+        </div>
+        <div class="posContent">
+            <div class="posCon"> 
+                <div class="position">
+                    <div class="posName">
+                        Сникерс
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/tort1.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                4000тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        Шоколадный бисквит с нежным сметанным кремом и вареным сгущенным молоком, 
+                        прослоен печеньем крекер с арахисом. Покрыт шоколадом, украшен вафельной крошкой, 
+                        кокосом, кусочками батончика Сникерс.
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        Карамельная девочка
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/tort2.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                6000тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        Нежные коржи на основе сгущённого молока. 
+                        Сливочный крем с ирисом, со вкусом молочного коктейля. 
+                        Прослойка из мягкого ириса. Карамельный ганаш, 
+                        жареный маршмелоу и карамельная крошка.
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        Красный бархат
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/tort3.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                5500тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        Мягкий бисквит с добавлением бельгийского какао с прослойкой из сливочно-сырного крема.
+                    </div>
+                </div>
+                <div class="position">
+                    <div class="posName">
+                        Румба
+                    </div>
+                    <div class="posElemContent">
+                        <div >
+                            <img class="posImg" src="media/tort4.jpg">
+                        </div>
+                        <div class="posBox">
+                            <img class="posBoxImg" src="media/box.jpg">
+                            <div class="posBoxText">
+                                1кг<br>
+                                3700тг
+                            </div>
+                        </div>
+                    </div>
+                    <div class="posText">
+                        Тёмный воздушный бисквит со взбитыми сливками, 
+                        ванильной пастой и бананами. Украшен белым гелем, 
+                        шоколадной крошкой, воздушным рисом и коктейльной вишней.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footerText">                
+                Адрес центрального офиса: Казахстан, г.Павлодар ул. Ломова, 10<br>
+                Телефон: 8 (747) 858 30 15<br>
+                Телефон доверия: 8 (747) 858 30 15<br>
+                WhatsApp: +77071151515<br>
+                E-mail: bulochnaya.pvl@yandex.ru
+            </div>
+        </div>
+    </div>    
+</body>
+</HTML>
